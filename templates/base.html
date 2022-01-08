@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">kalla sahifa</a>
+    <a href="{% url 'about' %}">about sahifa</a>
+    <a href="{% url 'contacts'%}">contacts sahifa</a>
+</header>
+<blockquote>pages: </blockquote>
+<br>
+{% block content %}
+
+{% endblock content%}
+
+</body>
+</html>
